@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 7%;
+  background: #172554;
+  color: white;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-links a.active {
+  color: #93c5fd;
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
